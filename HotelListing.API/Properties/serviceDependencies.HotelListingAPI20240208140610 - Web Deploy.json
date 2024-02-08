@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "apis1": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.ApiManagement/service/HotelListingAPI20240208140610/apis/HotelListingAPI",
+      "type": "apis.azure"
+    },
+    "mssql1": {
+      "serviceConnectorResourceId": "/subscriptions/[parameters('subscriptionId')]/resourcegroups/[parameters('resourceGroupName')]/providers/Microsoft.Web/sites/HotelListingAPI20240208140610/providers/Microsoft.ServiceLinker/linkers/ConnectionStringsHotelListingDbConnectio_0B3DBD2D70",
+      "secretStore": "AzureAppSettings",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourcegroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/hotellistingapidbserver20240208140610/databases/HotelListing.API_db",
+      "type": "mssql.azure",
+      "connectionId": "ConnectionStrings:HotelListingDbConnectionString",
+      "dynamicId": null
+    }
+  }
+}
